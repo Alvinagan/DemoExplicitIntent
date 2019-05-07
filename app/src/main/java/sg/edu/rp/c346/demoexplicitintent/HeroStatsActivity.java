@@ -3,6 +3,7 @@ package sg.edu.rp.c346.demoexplicitintent;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -23,8 +24,33 @@ public class HeroStatsActivity extends AppCompatActivity {
         tvStrength = findViewById(R.id.textViewStrength);
         tvTechincalProwess = findViewById(R.id.textViewTechnicalProwess);
 
+        btnLike = findViewById(R.id.buttonLike);
+        btnDislike = findViewById(R.id.buttonDislike);
+
         tvName.setText(hero.getName());
         tvStrength.setText("Strength: " + hero.getStrength());
         tvTechincalProwess.setText("Techincal: " + hero.getTechnicalProwess());
+
+        btnLike.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent();
+                i.putExtra("like", "like");
+                setResult(RESULT_OK, i);
+                finish();
+
+            }
+        });
+
+        btnDislike.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent();
+                i.putExtra("like", "dislike");
+                setResult(RESULT_OK, i);
+                finish();
+
+            }
+        });
     }
 }
