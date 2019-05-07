@@ -70,24 +70,24 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\17010247\.
 		ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:11:9-40
-activity#sg.edu.rp.c346.demoexplicitintent.HeroStatsActivity
-ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:12:9-64
-	android:name
-		ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:12:19-52
 activity#sg.edu.rp.c346.demoexplicitintent.MainActivity
-ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:13:9-19:20
+ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:13:19-47
+		ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:12:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:14:13-18:29
+ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:16:27-74
+activity#sg.edu.rp.c346.demoexplicitintent.HeroStatsActivity
+ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:19:9-64
+	android:name
+		ADDED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml:19:19-52
 uses-sdk
 INJECTED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\C346\Workspace\DemoExplicitIntent\app\src\main\AndroidManifest.xml

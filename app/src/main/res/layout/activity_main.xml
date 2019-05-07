@@ -12,11 +12,11 @@
         android:id="@+id/textViewSuperMan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="Superman" />
 
     <TextView
         android:id="@+id/textViewBatMan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="Batman" />
 </LinearLayout>
